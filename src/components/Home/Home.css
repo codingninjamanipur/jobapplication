@@ -1,0 +1,14 @@
+main {
+  background-image: url("../../../public/assets/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+.container1 {
+    width: 100%;
+    background-color: #B7B5B5;
+    display: flex;
+    flex-direction: column;
+    justify-content:center
+}
