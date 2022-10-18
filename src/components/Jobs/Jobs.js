@@ -6,7 +6,9 @@ function Jobs() {
   return (
     <>
       <Header />
-      <div className="main">Jobs</div>
+      <div className="main">
+        
+      </div>
       <Footer/>
     </>
   );

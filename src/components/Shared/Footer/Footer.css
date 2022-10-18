@@ -1,0 +1,13 @@
+.link__a, .link__a {
+  text-decoration: none;
+  color:inherit;
+
+}
+.link__a:hover, .link__a:hover {
+  text-decoration: underline;
+  color:rgb(47, 45, 45)
+}
+.grid_data{
+  display:grid;
+  grid-template-columns: repeat(8,auto)
+}
