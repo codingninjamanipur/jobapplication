@@ -7,7 +7,7 @@ function Jobs() {
     <>
       <Header />
       <div className="main">
-        
+        jobs
       </div>
       <Footer/>
     </>

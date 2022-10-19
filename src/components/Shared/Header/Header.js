@@ -19,7 +19,7 @@ function header() {
         <Navbar.Collapse id="responsive-navbar-nav">
       
           <Nav className="ms-auto">
-          <Nav.Link href="jobs">Jobs</Nav.Link>
+          
             <Nav.Link href="companies">Companies</Nav.Link>
 
             <Nav.Link href="resume">Resume</Nav.Link>
