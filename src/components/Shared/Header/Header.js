@@ -2,9 +2,15 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Login from '../../Authentication/Login';
+
+
+
 function header() {
   return (
-<Navbar collapseOnSelect expand="xxl" bg="dark" variant="dark">
+    <>
+    <div>
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container className="" >
         <Navbar.Brand href="/"><b>Job Seel</b></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -14,13 +20,19 @@ function header() {
           <Nav.Link href="jobs">Jobs</Nav.Link>
             <Nav.Link href="companies">Companies</Nav.Link>
 
-            <Nav.Link href="resume">Resume</Nav.Link>
+            <Nav.Link href="Resume">Resume</Nav.Link>
             <Nav.Link href="jobs">Post a Jobs</Nav.Link>
-            <Nav.Link type='button'>Login</Nav.Link>
+            <Login/> 
+             {/* <Nav.Link type='button'>Login</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>  )
+    </Navbar>
+    </div> 
+
+    </>
+  
+     )
 }
 
 export default header

@@ -1,13 +1,15 @@
 import React from "react";
 import Header from "../Shared/Header/Header";
 import Button from "react-bootstrap/Button";
-
-// import Footer from '../Shared/Footer/Footer'
+import Footer from '../Shared/Footer/Footer'
 import "./Home.css";
 function home() {
   return (
+    
     <>
+
       <Header />
+     
       <main></main>
       <div className="container1">
 
@@ -18,6 +20,7 @@ function home() {
       </div>
       
     </>
+  
   );
 }
 

@@ -1,0 +1,41 @@
+.LoginWelcomeText{
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-right: 21px;
+    justify-content: center;
+}
+.sign{
+    display: flex;
+justify-content: center;
+    font-size: 15px;
+    line-height: 16px;
+    color: #6F76A7;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.test_login{
+
+    border: 1px solid #C8CEED;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 15px;
+    margin-left: -70px;
+    margin-top: 110px;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 10px;
+  
+}
+.test_git{
+
+    border: 1px solid #C8CEED; 
+    border-radius: 4px;
+    width: 70px;
+    padding: 4px 10px;
+    margin-top: 100px;
+    margin-left: 40px;
+    line-height: 10px;
+
+}
+

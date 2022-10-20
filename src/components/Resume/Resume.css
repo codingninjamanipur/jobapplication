@@ -1,0 +1,22 @@
+.resu-img{
+    background-image: url("https://media.istockphoto.com/photos/young-asian-woman-confident-working-at-home-with-laptop-computer-and-picture-id1318378047?s=612x612");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+    /* .form-label-top, .form-label-left, .form-label-right {
+        font-weight: bold;
+        margin-bottom: 9px;
+    } */
+
+.form-label-left {
+    /* float: left; */
+    display: inline-block;
+    text-align: left;
+    padding: 3px;
+    white-space: normal;
+    word-break: break-word;
+    font-weight: bold;
+}
