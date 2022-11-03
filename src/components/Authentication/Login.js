@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
+
+import GoogleLogin from 'react-google-login';
 import './Login.css'
 import Register from './Register'
 
@@ -54,7 +56,7 @@ function Login() {
       </Modal.Body>
         <Modal.Footer>
         <Register/>
-
+          
           <Button variant="secondary" onClick={handleClose}>
             Signin
           </Button>

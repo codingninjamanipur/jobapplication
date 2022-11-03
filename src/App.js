@@ -10,19 +10,22 @@ import Resume from './components/Resume/Resume';
 
 function App() {
   return (
+    
     <React.StrictMode>
+    
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/create' element={<CreateApost />} />
         <Route path='/companies' element={<Companies/>}/>
         <Route path='/jobs' element={<Jobs/>}/>
-        <Route path='/resume' element={<Resume/>}/>
+        <Route path='/Resume' element={<Resume/>}/>
     
 
       </Routes>
-    
+  
     </BrowserRouter>
+    
   </React.StrictMode>
   );
 }

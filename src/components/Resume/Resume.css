@@ -6,17 +6,34 @@
     background-size: cover;
     background-repeat:no-repeat ;
 }
-    /* .form-label-top, .form-label-left, .form-label-right {
-        font-weight: bold;
-        margin-bottom: 9px;
-    } */
+ 
 
+    .form-label {
+        
+        display: inline-block;
+        text-align: left;
+        padding: 3px;
+        white-space: normal;
+        word-break: break-word;
+        font-weight: bold;
+    }
 .form-label-left {
-    /* float: left; */
+ 
     display: inline-block;
     text-align: left;
     padding: 3px;
     white-space: normal;
     word-break: break-word;
     font-weight: bold;
+}
+.form-label-form{
+    font-weight: bold;
+}
+container{
+    width: 100%;
+    height: 100%;
+    background-color: #B7B5B5;
+    display: flex;
+    flex-direction: column;
+    justify-content:center
 }
